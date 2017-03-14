@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+  ProjectType="Visual C++"
+  Version="7.00"
+  Name="CORE_lcms"
+  ProjectGUID="{3B8054FB-6FBF-469E-ADF0-EC0171EB6D64}"
+  Keyword="x64Proj">
+  <Platforms>
+    <Platform Name="x64"/>
+  </Platforms>
+  <Configurations>
+    <Configuration
+      Name="Release|x64"
+      OutputDirectory="..\lib-mtsd\"
+      IntermediateDirectory="..\Release-mtsd\CORE_lcms"
+      ConfigurationType="4"
+      UseOfMFC="0"
+      ATLMinimizesCRunTimeLibraryUsage="FALSE"
+      CharacterSet="2">
+      <Tool
+        Name="VCCLCompilerTool"
+        RuntimeLibrary="2"
+        StringPooling="TRUE"
+        EnableFunctionLevelLinking="TRUE"
+        WarningLevel="3"
+        UsePrecompiledHeader="0"
+        SuppressStartupBanner="TRUE"
+        CompileAs="0"
+        InlineFunctionExpansion="2"
+        DebugInformationFormat="3"
+        BasicRuntimeChecks="0"
+        OmitFramePointers="TRUE"
+        Optimization="3"
+        AdditionalIncludeDirectories="..\..,..\..\xlib,..\..\Magick++\lib,..\..\zlib,..\..\bzlib,..\..\jpeg,..\..\lcms\src,..\..\lcms\include,..\..\ttf\include,..\..\webp\src,..\..\webp\src\dec,..\..\webp\src\demux,..\..\webp\src\dsp,..\..\webp\src\enc,..\..\webp\src\mux,..\..\webp\src\utils,..\..\webp\src\webp,..\..\libxml\include,..\..\libxml\include\libxml,..\..\lcms,..\..\lcms\include,..\..\lcms\src"
+        PreprocessorDefinitions="NDEBUG;_WINDOWS;WIN64;_VISUALC_;NeedFunctionPrototypes;_LIB;_LCMSLIB_;__CONSOLE__;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS"
+        />
+      <Tool
+        Name="VCMIDLTool"/>
+      <Tool
+        Name="VCResourceCompilerTool"
+        PreprocessorDefinitions="NDEBUG"
+        Culture="1033"/>
+      <Tool
+        Name="VCLibrarianTool"
+        AdditionalDependencies="/MACHINE:AMD64 "
+        SuppressStartupBanner="TRUE"
+        LinkIncremental="1"
+        TargetMachine="17"
+        SubSystem="2"
+        OutputFile="..\lib-mtsd\CORE_RL_lcms_.lib"
+        />
+    </Configuration>
+    <Configuration
+      Name="Debug|x64"
+      OutputDirectory="..\lib-mtsd\"
+      IntermediateDirectory="..\Debug-mtsd\CORE_lcms"
+      ConfigurationType="4"
+      UseOfMFC="0"
+      ATLMinimizesCRunTimeLibraryUsage="FALSE"
+      CharacterSet="2">
+      <Tool
+        Name="VCCLCompilerTool"
+        RuntimeLibrary="3"
+        StringPooling="TRUE"
+        EnableFunctionLevelLinking="TRUE"
+        WarningLevel="3"
+        UsePrecompiledHeader="0"
+        SuppressStartupBanner="TRUE"
+        CompileAs="0"
+        InlineFunctionExpansion="2"
+        BasicRuntimeChecks="3"
+        OmitFramePointers="FALSE"
+        DebugInformationFormat="3"
+        Optimization="0"
+        AdditionalIncludeDirectories="..\..,..\..\xlib,..\..\Magick++\lib,..\..\zlib,..\..\bzlib,..\..\jpeg,..\..\lcms\src,..\..\lcms\include,..\..\ttf\include,..\..\webp\src,..\..\webp\src\dec,..\..\webp\src\demux,..\..\webp\src\dsp,..\..\webp\src\enc,..\..\webp\src\mux,..\..\webp\src\utils,..\..\webp\src\webp,..\..\libxml\include,..\..\libxml\include\libxml,..\..\lcms,..\..\lcms\include,..\..\lcms\src"
+        PreprocessorDefinitions="_DEBUG;_WINDOWS;WIN64;_VISUALC_;NeedFunctionPrototypes;_LIB;_LCMSLIB_;__CONSOLE__;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS"
+        />
+      <Tool
+        Name="VCMIDLTool"/>
+      <Tool
+        Name="VCResourceCompilerTool"
+        PreprocessorDefinitions="_DEBUG"
+        Culture="1033"/>
+      <Tool
+        Name="VCLibrarianTool"
+        AdditionalDependencies="/MACHINE:AMD64 "
+        SuppressStartupBanner="TRUE"
+        LinkIncremental="1"
+        TargetMachine="17"
+        SubSystem="2"
+        OutputFile="..\lib-mtsd\CORE_DB_lcms_.lib"
+        />
+    </Configuration>
+  </Configurations>
+  <Files>
+    <Filter Name="src" Filter="">
+      <File RelativePath="..\..\lcms\src\cmsalpha.c"/>
+      <File RelativePath="..\..\lcms\src\cmscam02.c"/>
+      <File RelativePath="..\..\lcms\src\cmscgats.c"/>
+      <File RelativePath="..\..\lcms\src\cmscnvrt.c"/>
+      <File RelativePath="..\..\lcms\src\cmserr.c"/>
+      <File RelativePath="..\..\lcms\src\cmsgamma.c"/>
+      <File RelativePath="..\..\lcms\src\cmsgmt.c"/>
+      <File RelativePath="..\..\lcms\src\cmshalf.c"/>
+      <File RelativePath="..\..\lcms\src\cmsintrp.c"/>
+      <File RelativePath="..\..\lcms\src\cmsio0.c"/>
+      <File RelativePath="..\..\lcms\src\cmsio1.c"/>
+      <File RelativePath="..\..\lcms\src\cmslut.c"/>
+      <File RelativePath="..\..\lcms\src\cmsmd5.c"/>
+      <File RelativePath="..\..\lcms\src\cmsmtrx.c"/>
+      <File RelativePath="..\..\lcms\src\cmsnamed.c"/>
+      <File RelativePath="..\..\lcms\src\cmsopt.c"/>
+      <File RelativePath="..\..\lcms\src\cmspack.c"/>
+      <File RelativePath="..\..\lcms\src\cmspcs.c"/>
+      <File RelativePath="..\..\lcms\src\cmsplugin.c"/>
+      <File RelativePath="..\..\lcms\src\cmsps2.c"/>
+      <File RelativePath="..\..\lcms\src\cmssamp.c"/>
+      <File RelativePath="..\..\lcms\src\cmssm.c"/>
+      <File RelativePath="..\..\lcms\src\cmstypes.c"/>
+      <File RelativePath="..\..\lcms\src\cmsvirt.c"/>
+      <File RelativePath="..\..\lcms\src\cmswtpnt.c"/>
+      <File RelativePath="..\..\lcms\src\cmsxform.c"/>
+      <File RelativePath="..\..\lcms\src\lcms2.def"/>
+    </Filter>
+    <Filter Name="include" Filter="">
+      <File RelativePath="..\..\lcms\include\lcms2.h"/>
+      <File RelativePath="..\..\lcms\include\lcms2_plugin.h"/>
+      <File RelativePath="..\..\lcms\src\lcms2_internal.h"/>
+    </Filter>
+    <Filter Name="resource" Filter="">
+    </Filter>
+  </Files>
+  <Globals>
+  </Globals>
+</VisualStudioProject>

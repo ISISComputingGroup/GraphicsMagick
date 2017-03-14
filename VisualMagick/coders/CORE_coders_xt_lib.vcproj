@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+  ProjectType="Visual C++"
+  Version="7.00"
+  Name="CORE_coders"
+  ProjectGUID="{8AAD4027-EBD4-4A75-B6CC-496A8B3DB118}"
+  Keyword="x64Proj">
+  <Platforms>
+    <Platform Name="x64"/>
+  </Platforms>
+  <Configurations>
+    <Configuration
+      Name="Release|x64"
+      OutputDirectory="..\lib-mts\"
+      IntermediateDirectory="..\Release-mts\CORE_coders"
+      ConfigurationType="4"
+      UseOfMFC="0"
+      ATLMinimizesCRunTimeLibraryUsage="FALSE"
+      CharacterSet="2">
+      <Tool
+        Name="VCCLCompilerTool"
+        RuntimeLibrary="0"
+        StringPooling="TRUE"
+        EnableFunctionLevelLinking="TRUE"
+        WarningLevel="3"
+        UsePrecompiledHeader="0"
+        SuppressStartupBanner="TRUE"
+        CompileAs="0"
+        InlineFunctionExpansion="2"
+        DebugInformationFormat="3"
+        BasicRuntimeChecks="0"
+        OmitFramePointers="TRUE"
+        Optimization="3"
+        AdditionalIncludeDirectories="..\..,..\..\xlib,..\..\Magick++\lib,..\..\zlib,..\..\bzlib,..\..\jpeg,..\..\lcms\src,..\..\lcms\include,..\..\ttf\include,..\..\webp\src,..\..\webp\src\dec,..\..\webp\src\demux,..\..\webp\src\dsp,..\..\webp\src\enc,..\..\webp\src\mux,..\..\webp\src\utils,..\..\webp\src\webp,..\..\libxml\include,..\..\libxml\include\libxml,..\..\coders,..\..\wmf,..\..\wmf\include,..\..\tiff,..\..\tiff\libtiff,..\..\png,..\..\fpx,..\..\fpx\basics,..\..\fpx\fpx,..\..\fpx\jpeg,..\..\fpx\ole,..\..\fpx\ri_image,..\..\jbig,..\..\jbig\libjbig,..\..\jp2,..\..\jp2\src,..\..\jp2\src\libjasper,..\..\jp2\src\libjasper\base,..\..\jp2\src\libjasper\include,..\..\jp2\src\libjasper\include\jasper,..\..\jp2\src\libjasper\jp2,..\..\jp2\src\libjasper\jpc"
+        PreprocessorDefinitions="NDEBUG;_WINDOWS;WIN64;_VISUALC_;NeedFunctionPrototypes;_LIB"
+        />
+      <Tool
+        Name="VCMIDLTool"/>
+      <Tool
+        Name="VCResourceCompilerTool"
+        PreprocessorDefinitions="NDEBUG"
+        Culture="1033"/>
+      <Tool
+        Name="VCLibrarianTool"
+        AdditionalDependencies="/MACHINE:AMD64 "
+        SuppressStartupBanner="TRUE"
+        LinkIncremental="1"
+        TargetMachine="17"
+        SubSystem="2"
+        OutputFile="..\lib-mts\CORE_RL_coders_.lib"
+        />
+    </Configuration>
+    <Configuration
+      Name="Debug|x64"
+      OutputDirectory="..\lib-mts\"
+      IntermediateDirectory="..\Debug-mts\CORE_coders"
+      ConfigurationType="4"
+      UseOfMFC="0"
+      ATLMinimizesCRunTimeLibraryUsage="FALSE"
+      CharacterSet="2">
+      <Tool
+        Name="VCCLCompilerTool"
+        RuntimeLibrary="1"
+        StringPooling="TRUE"
+        EnableFunctionLevelLinking="TRUE"
+        WarningLevel="3"
+        UsePrecompiledHeader="0"
+        SuppressStartupBanner="TRUE"
+        CompileAs="0"
+        InlineFunctionExpansion="2"
+        BasicRuntimeChecks="3"
+        OmitFramePointers="FALSE"
+        DebugInformationFormat="3"
+        Optimization="0"
+        AdditionalIncludeDirectories="..\..,..\..\xlib,..\..\Magick++\lib,..\..\zlib,..\..\bzlib,..\..\jpeg,..\..\lcms\src,..\..\lcms\include,..\..\ttf\include,..\..\webp\src,..\..\webp\src\dec,..\..\webp\src\demux,..\..\webp\src\dsp,..\..\webp\src\enc,..\..\webp\src\mux,..\..\webp\src\utils,..\..\webp\src\webp,..\..\libxml\include,..\..\libxml\include\libxml,..\..\coders,..\..\wmf,..\..\wmf\include,..\..\tiff,..\..\tiff\libtiff,..\..\png,..\..\fpx,..\..\fpx\basics,..\..\fpx\fpx,..\..\fpx\jpeg,..\..\fpx\ole,..\..\fpx\ri_image,..\..\jbig,..\..\jbig\libjbig,..\..\jp2,..\..\jp2\src,..\..\jp2\src\libjasper,..\..\jp2\src\libjasper\base,..\..\jp2\src\libjasper\include,..\..\jp2\src\libjasper\include\jasper,..\..\jp2\src\libjasper\jp2,..\..\jp2\src\libjasper\jpc"
+        PreprocessorDefinitions="_DEBUG;_WINDOWS;WIN64;_VISUALC_;NeedFunctionPrototypes;_LIB"
+        />
+      <Tool
+        Name="VCMIDLTool"/>
+      <Tool
+        Name="VCResourceCompilerTool"
+        PreprocessorDefinitions="_DEBUG"
+        Culture="1033"/>
+      <Tool
+        Name="VCLibrarianTool"
+        AdditionalDependencies="/MACHINE:AMD64 "
+        SuppressStartupBanner="TRUE"
+        LinkIncremental="1"
+        TargetMachine="17"
+        SubSystem="2"
+        OutputFile="..\lib-mts\CORE_DB_coders_.lib"
+        />
+    </Configuration>
+  </Configurations>
+  <Files>
+    <Filter Name="src" Filter="">
+      <File RelativePath="..\..\coders\art.c"/>
+      <File RelativePath="..\..\coders\avi.c"/>
+      <File RelativePath="..\..\coders\avs.c"/>
+      <File RelativePath="..\..\coders\bmp.c"/>
+      <File RelativePath="..\..\coders\cals.c"/>
+      <File RelativePath="..\..\coders\caption.c"/>
+      <File RelativePath="..\..\coders\cineon.c"/>
+      <File RelativePath="..\..\coders\clipboard.c"/>
+      <File RelativePath="..\..\coders\cmyk.c"/>
+      <File RelativePath="..\..\coders\cut.c"/>
+      <File RelativePath="..\..\coders\dcm.c"/>
+      <File RelativePath="..\..\coders\dcraw.c"/>
+      <File RelativePath="..\..\coders\dib.c"/>
+      <File RelativePath="..\..\coders\dps.c"/>
+      <File RelativePath="..\..\coders\dpx.c"/>
+      <File RelativePath="..\..\coders\emf.c"/>
+      <File RelativePath="..\..\coders\ept.c"/>
+      <File RelativePath="..\..\coders\fax.c"/>
+      <File RelativePath="..\..\coders\fits.c"/>
+      <File RelativePath="..\..\coders\fpx.c"/>
+      <File RelativePath="..\..\coders\gif.c"/>
+      <File RelativePath="..\..\coders\gradient.c"/>
+      <File RelativePath="..\..\coders\gray.c"/>
+      <File RelativePath="..\..\coders\hdf.c"/>
+      <File RelativePath="..\..\coders\histogram.c"/>
+      <File RelativePath="..\..\coders\hrz.c"/>
+      <File RelativePath="..\..\coders\html.c"/>
+      <File RelativePath="..\..\coders\icon.c"/>
+      <File RelativePath="..\..\coders\identity.c"/>
+      <File RelativePath="..\..\coders\info.c"/>
+      <File RelativePath="..\..\coders\jbig.c"/>
+      <File RelativePath="..\..\coders\jnx.c"/>
+      <File RelativePath="..\..\coders\jp2.c"/>
+      <File RelativePath="..\..\coders\jpeg.c"/>
+      <File RelativePath="..\..\coders\label.c"/>
+      <File RelativePath="..\..\coders\locale.c"/>
+      <File RelativePath="..\..\coders\logo.c"/>
+      <File RelativePath="..\..\coders\mac.c"/>
+      <File RelativePath="..\..\coders\map.c"/>
+      <File RelativePath="..\..\coders\mat.c"/>
+      <File RelativePath="..\..\coders\matte.c"/>
+      <File RelativePath="..\..\coders\meta.c"/>
+      <File RelativePath="..\..\coders\miff.c"/>
+      <File RelativePath="..\..\coders\mono.c"/>
+      <File RelativePath="..\..\coders\mpc.c"/>
+      <File RelativePath="..\..\coders\mpeg.c"/>
+      <File RelativePath="..\..\coders\mpr.c"/>
+      <File RelativePath="..\..\coders\msl.c"/>
+      <File RelativePath="..\..\coders\mtv.c"/>
+      <File RelativePath="..\..\coders\mvg.c"/>
+      <File RelativePath="..\..\coders\null.c"/>
+      <File RelativePath="..\..\coders\otb.c"/>
+      <File RelativePath="..\..\coders\palm.c"/>
+      <File RelativePath="..\..\coders\pcd.c"/>
+      <File RelativePath="..\..\coders\pcl.c"/>
+      <File RelativePath="..\..\coders\pcx.c"/>
+      <File RelativePath="..\..\coders\pdb.c"/>
+      <File RelativePath="..\..\coders\pdf.c"/>
+      <File RelativePath="..\..\coders\pict.c"/>
+      <File RelativePath="..\..\coders\pix.c"/>
+      <File RelativePath="..\..\coders\plasma.c"/>
+      <File RelativePath="..\..\coders\png.c"/>
+      <File RelativePath="..\..\coders\pnm.c"/>
+      <File RelativePath="..\..\coders\preview.c"/>
+      <File RelativePath="..\..\coders\ps.c"/>
+      <File RelativePath="..\..\coders\ps2.c"/>
+      <File RelativePath="..\..\coders\ps3.c"/>
+      <File RelativePath="..\..\coders\psd.c"/>
+      <File RelativePath="..\..\coders\pwp.c"/>
+      <File RelativePath="..\..\coders\rgb.c"/>
+      <File RelativePath="..\..\coders\rla.c"/>
+      <File RelativePath="..\..\coders\rle.c"/>
+      <File RelativePath="..\..\coders\sct.c"/>
+      <File RelativePath="..\..\coders\sfw.c"/>
+      <File RelativePath="..\..\coders\sgi.c"/>
+      <File RelativePath="..\..\coders\stegano.c"/>
+      <File RelativePath="..\..\coders\sun.c"/>
+      <File RelativePath="..\..\coders\svg.c"/>
+      <File RelativePath="..\..\coders\tga.c"/>
+      <File RelativePath="..\..\coders\tiff.c"/>
+      <File RelativePath="..\..\coders\tile.c"/>
+      <File RelativePath="..\..\coders\tim.c"/>
+      <File RelativePath="..\..\coders\topol.c"/>
+      <File RelativePath="..\..\coders\ttf.c"/>
+      <File RelativePath="..\..\coders\txt.c"/>
+      <File RelativePath="..\..\coders\uil.c"/>
+      <File RelativePath="..\..\coders\url.c"/>
+      <File RelativePath="..\..\coders\uyvy.c"/>
+      <File RelativePath="..\..\coders\vicar.c"/>
+      <File RelativePath="..\..\coders\vid.c"/>
+      <File RelativePath="..\..\coders\viff.c"/>
+      <File RelativePath="..\..\coders\wbmp.c"/>
+      <File RelativePath="..\..\coders\webp.c"/>
+      <File RelativePath="..\..\coders\wmf.c"/>
+      <File RelativePath="..\..\coders\wpg.c"/>
+      <File RelativePath="..\..\coders\x.c"/>
+      <File RelativePath="..\..\coders\xbm.c"/>
+      <File RelativePath="..\..\coders\xc.c"/>
+      <File RelativePath="..\..\coders\xcf.c"/>
+      <File RelativePath="..\..\coders\xpm.c"/>
+      <File RelativePath="..\..\coders\xtrn.c"/>
+      <File RelativePath="..\..\coders\xwd.c"/>
+      <File RelativePath="..\..\coders\yuv.c"/>
+    </Filter>
+    <Filter Name="include" Filter="">
+    </Filter>
+    <Filter Name="resource" Filter="">
+    </Filter>
+  </Files>
+  <Globals>
+  </Globals>
+</VisualStudioProject>
