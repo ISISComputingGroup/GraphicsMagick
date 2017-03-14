@@ -22,6 +22,7 @@
 *.dsw text eol=crlf
 *.vcproj text eol=crlf
 *.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
 
 # Denote all files that are truly binary and should not be modified.
 *.png binary
